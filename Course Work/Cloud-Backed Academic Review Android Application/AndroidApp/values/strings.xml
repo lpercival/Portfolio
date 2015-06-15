@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="add_review">Add Review</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="schools_title">Ranked Schools</string>
+    <string name="add_school"> Add School </string>
+    <string name="review_added">Review Added</string>
+    <string name="error_adding">Error Adding Review</string>
+
+    <string name="title_label"> Title*: </string>
+    <string name="description_label"> Description*: </string>
+    <string name="school_label"> School*: </string>
+    <string name="date_label"> Date*: </string>
+    <string name="date_hint">Pick a date</string>
+    <string name="ranking_label">Ranking*: </string>
+
+    <string name="title_label_view"> Title: </string>
+    <string name="description_label_view"> Description: </string>
+    <string name="school_label_view"> School: </string>
+    <string name="date_label_view"> Date: </string>
+    <string name="ranking_label_view">Ranking: </string>
+
+    <string name="button_draft"> Save Local Draft</string>
+    <string name="button_load"> Load Local Draft </string>
+    <string name="button_submit"> Submit </string>
+
+    <string name="username_label"> Username*: </string>
+    <string name="pwd_label"> Password*: </string>
+
+    <string name="name_label"> Name*: </string>
+    <string name="city_label"> City: </string>
+    <string name="state_label"> State: </string>
+
+    <string name="button_login"> Login </string>
+    <string name="button_signUp"> Sign Up </string>
+    <string name="button_create"> Create </string>
+    <string name="button_edit"> Edit </string>
+    <string name="button_delete"> Delete </string>
+    <string name="button_save"> Save Changes </string>
+
+    <string name="login"> Login </string>
+    <string name="logout"> Logout </string>
+    <string name="sign_up"> Sign Up </string>
+
+    <string name="title_activity_add_review">AddReviewActivity</string>
+    <string name="title_activity_review_added">ReviewAddedActivity</string>
+    <string name="title_activity_add_error">AddErrorActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_my_reviews">My Reviews</string>
+    <string name="title_activity_view_review">View Review</string>
+    <string name="title_activity_edit_review">Edit Review</string>
+    <string name="title_activity_add_school">Add School</string>
+
+    <string-array name="ranking_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="state_options">
+        <item>AK</item>
+        <item>AL</item>
+        <item>AR</item>
+        <item>AZ</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DC</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>IA</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>MA</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MO</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>NE</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NV</item>
+        <item>NY</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VA</item>
+        <item>VT</item>
+        <item>WA</item>
+        <item>WI</item>
+        <item>WV</item>
+        <item>WY</item>
+    </string-array>
+</resources>

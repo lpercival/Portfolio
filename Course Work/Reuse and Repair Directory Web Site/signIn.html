@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--Author: Lisa Percival -->
+<!-- Date Created: 5/2/15 -->
+<!-- Description: Present a form where the user can sign in, which means -->
+<!-- enter a username and password. Submitting the form calls a -->
+<!-- JavaScript function, which makes a call to PHP to check credentials. -->
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- http://startbootstrap.com/template-overviews/logo-nav/ -->
+		<!-- Bootstrap Core CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+		<!-- Custom CSS -->
+		<link href="bootstrap/css/logo-nav.css" rel="stylesheet">
+		
+		<title>Sign In</title>
+		<script src="signIn.js"></script>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!--<link href="myStyle.css" rel="stylesheet">--> <!--can override boostrap-->
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.php">
+						<!-- http://stackoverflow.com/questions/20502040/bootstrap-3-text-next-to-brand -->
+						<span><img src="images/ecogreen.png" alt="logo" height="50" width="50"></span>
+						Corvallis Reuse & Repair Web Management Interface
+					</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="companies.php">Companies</a>
+						</li>
+						<li>
+							<a href="categories.php">Categories</a>
+						</li>
+						<li>
+							<a href="users.php">Users</a>
+						</li>
+						<li>
+							<a href="logout.php">Logout</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+	
+		<!-- Page Content -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+				
+					<p align="center"> Looking for the client Android application?
+					<a href="download/Corvallis_Recycles.apk" download=""> Click here </a>
+					to download</p>
+	
+					<h1> Login </h1>
+					
+					<div id="forErrors">
+					</div>
+					<form method="post" class="form-horizontal">	<!-- no action necessary -->
+						<fieldset>
+							<legend> Login Information </legend>
+							<div class="form-group">
+								<label for="name" class="col-sm-2 control-label"> Enter Username*: </label>
+								<div class="col-sm-10">
+									<input type="text" id="name" name="username" class="form-control"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="pwd" class="col-sm-2 control-label"> Enter Password*: </label>
+								<div class="col-sm-10">
+									<input type="password" autocomplete="off" id="pwd" name="pwd" class="form-control"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="button" name="signin" onclick="signIn()" class="btn btn-default"> Sign In </button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+		
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	
+		<!-- jQuery -->
+		<script src="bootstrap/js/jquery.js"></script>
+	
+		<!-- Bootstrap Core JavaScript -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>

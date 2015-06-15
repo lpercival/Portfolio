@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs496.finalproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- label of main activity has to be same as app, so change in java instead -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name=".SchoolsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddReviewActivity"
+            android:label="@string/add_review"
+            android:parentActivityName=".SchoolsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.SchoolsActivity" />
+        </activity>
+        <activity
+            android:name=".ReviewAddedActivity"
+            android:label="@string/review_added"
+            android:parentActivityName=".SchoolsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.SchoolsActivity" />
+        </activity>
+        <activity
+            android:name=".AddErrorActivity"
+            android:label="@string/error_adding"
+            android:parentActivityName=".SchoolsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.AddReviewActivity" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login"
+            android:parentActivityName=".SchoolsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.SchoolsActivity" />
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/sign_up"
+            android:parentActivityName=".SchoolsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.SchoolsActivity" />
+        </activity>
+        <activity
+            android:name=".MyReviewsActivity"
+            android:label="@string/title_activity_my_reviews"
+            android:parentActivityName=".SchoolsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.SchoolsActivity" />
+        </activity>
+        <activity
+            android:name=".ViewReviewActivity"
+            android:label="@string/title_activity_view_review"
+            android:parentActivityName=".MyReviewsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.MyReviewsActivity" />
+        </activity>
+        <activity
+            android:name=".EditReviewActivity"
+            android:label="@string/title_activity_edit_review"
+            android:parentActivityName=".MyReviewsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.MyReviewsActivity" />
+        </activity>
+        <activity
+            android:name=".AddSchoolActivity"
+            android:label="@string/title_activity_add_school"
+            android:parentActivityName=".SchoolsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cs496.finalproject.SchoolsActivity" />
+        </activity>
+    </application>
+
+</manifest>

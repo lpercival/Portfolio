@@ -1,0 +1,40 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:paddingLeft="3dip"
+    android:paddingRight="3dip">
+
+    <TableRow>
+        <TextView android:id="@+id/username_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username_label"/>
+        <EditText android:id="@+id/username"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:id="@+id/pwd_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pwd_label" />
+        <EditText android:id="@+id/pwd"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_create"
+            android:onClick="CreateAccount" />
+    </TableRow>
+
+</TableLayout>

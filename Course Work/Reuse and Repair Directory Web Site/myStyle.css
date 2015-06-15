@@ -1,0 +1,71 @@
+/* Author: Lisa Percival
+*  Created: 5/28/15
+*/
+
+.blue-div {
+	background-color: #5A9CD6;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.green-div {
+	background-color: #78B418;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+a.blue-button {
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #5A9CD6;
+	color: inherit;
+    text-decoration: none;
+    margin : 5px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+}
+a.blue-button:hover {
+    text-decoration: underline;
+}
+
+a.green-button {
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #78B418;
+	color: inherit;
+    text-decoration: none;
+    margin : 5px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+}
+a.green-button:hover {
+    text-decoration: underline;
+}
+
+button.blue-button {
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #5A9CD6;
+	color: inherit;
+    text-decoration: none;
+    margin : 5px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+}
+button.blue-button:hover {
+    text-decoration: underline;
+}
+
+button.green-button {
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #78B418;
+	color: inherit;
+    text-decoration: none;
+    margin : 5px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+}
+button.green-button:hover {
+    text-decoration: underline;
+}

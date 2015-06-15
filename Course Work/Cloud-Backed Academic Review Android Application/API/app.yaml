@@ -1,0 +1,19 @@
+application: stately-list-96223
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+ - url: /users/.*/reviews.*
+   script: reviews.app
+   
+ - url: /schools.*
+   script: schools.app
+   
+ - url: /users.*
+   script: users.app
+   
+libraries:
+ - name: webapp2
+   version: latest
