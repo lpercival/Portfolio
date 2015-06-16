@@ -1,0 +1,57 @@
+/* Stylesheet for CS340 Final Project
+* Author: Lisa Percival
+*/
+
+label {
+    display: inline-block;
+    width: 130px;
+}
+
+
+.heading {
+    background-color: #00628B;
+    border-radius: 12px 12px 0px 0px;	/* rounded corners on top */
+    color: white;
+    margin: 2px;
+    padding: 6px;
+	padding-left: 16px;
+}
+
+.navigation {
+    margin: 2px;
+    padding: 10px;
+}
+
+.navigation > a {
+    margin-left: 3em;
+}
+
+.a {
+    display: inline-block;
+    width: 150px;
+}
+
+.content {
+    background-color: #E6E6DC;
+    margin: 2px;
+    padding: 8px;
+}
+
+.content table {
+    border: 1px solid #00628B;
+    border-collapse: collapse;
+}
+
+.content th {
+    border: #00628B 1px solid;
+    padding: 8px;
+}
+
+.content td {
+    border: #00628B 1px solid;
+    padding: 8px;
+}
+
+.content tr:nth-child(odd) {		/*alternating colored rows in table */
+    background: #81A594;
+}

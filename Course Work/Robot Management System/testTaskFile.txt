@@ -1,0 +1,5 @@
+Wash the dog, med, household
+Pay bills, high, money
+Do project, high, school
+Study for exam, med, school
+Balance checkbook, low, money
